@@ -1,0 +1,71 @@
+
+
+body {
+  background: linear-gradient(
+    73deg,
+    rgb(202, 171, 214) 19%,
+    rgba(215, 163, 219, 0.458) 48%,
+    rgb(165, 168, 246) 82%
+  );
+}
+
+.navbar-brand {
+  color: rgb(207, 200, 200);
+  font-size: 35px;
+  line-height: 10px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+
+.navbar {
+ 
+  height: 70px;
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(to right, #1a191b 9%, #2c2550 100%);
+}
+nav ul li a{
+  color: white; font-size: 17px;padding: 7px 13px; border-radius: 3px; text-transform: uppercase; text-decoration: none;
+  
+}
+.brandspan {
+  color: rgb(202, 176, 220);
+}
+
+.nav-link {
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.active {
+  background: linear-gradient(to right, #ad64c9 9%, #7f6be3 100%);
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  background: linear-gradient(to right, #ad64c9 9%, #7f6be3 100%);
+  transition: 0.5s;
+} 
+.link{
+ 
+  color: white;
+  font-size: 15px;
+  padding: 7px 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+.link:hover{
+  color: rgb(202, 176, 220);
+}
+.link-name{
+  color: white;
+  font-size: 15px;
+  padding: 7px 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}

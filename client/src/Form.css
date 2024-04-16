@@ -1,0 +1,92 @@
+
+
+  
+.row.single-form {
+    box-shadow: 0 2px 20px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .left {
+    margin: 20px 0 0 20px;
+  }
+  
+  .left h2 {
+    font-family: "Montserrat", sans-serif;
+    color: #38265d;
+    font-weight: 400;
+    font-size: 40px;
+  }
+  
+  iframe {
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 3px;
+  }
+  
+  .single-form {
+    background: linear-gradient(
+      73deg,
+      rgb(246, 246, 246) 14%,
+      rgba(233, 239, 247, 0.458) 48%,
+      rgb(184, 199, 208) 82%
+    );
+  }
+  
+  .right {
+    padding: 70px 100px;
+    position: relative;
+  }
+  
+  .form-control {
+    border: 2px solid #000;
+  }
+  
+  .right button {
+    font-weight: 700;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background: transparent;
+    width: 180px;
+    color: #c548b4;
+    padding: 10px 0;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .right button:hover {
+    background: rgba(169, 167, 226, 0.937);
+    color: #141313;
+    transition: 0.5s;
+  }
+  textarea {
+    text-transform: uppercase;
+    outline: none;
+    background: none;
+    padding: 10px 0;
+    border: none;
+    width: 100%;
+    height: 100%;
+    resize: none;
+    color: #000000;
+    font-size: 16px;
+    border-bottom: 1px solid #666;
+    transition: border-color 0.2s;
+  }
+  
+  .app-form-control {
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #666;
+    color: #000000;
+    font-size: 15px;
+    text-transform: uppercase;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  
